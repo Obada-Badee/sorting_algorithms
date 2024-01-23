@@ -56,6 +56,12 @@ void insertion_sort_list(listint_t **list);
  */
 void selection_sort(int *array, size_t size);
 /**
+ * quick_sort - The quick_sort sorting algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void quick_sort(int *array, size_t size);
+/**
  * shell_sort - The shell sort algorithm
  * @array: The array to be sorted
  * @size: The size of the array
