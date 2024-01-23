@@ -44,5 +44,10 @@ void print_list(const listint_t *list);
  * @size: The size of the array
  */
 void bubble_sort(int *array, size_t size);
+/**
+ * insertion_sort_list - The insertion sort algorithm
+ * @list: The list to be sorted
+ */
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */
