@@ -36,3 +36,11 @@ void print_array(const int *array, size_t size);
  * @list: The list to be printed
  */
 void print_list(const listint_t *list);
+
+/* "Sorting Algorithms" */
+/**
+ * bubble_sort - The bubble sort algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void bubble_sort(int *array, size_t size);
