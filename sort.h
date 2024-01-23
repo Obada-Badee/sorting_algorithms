@@ -44,3 +44,5 @@ void print_list(const listint_t *list);
  * @size: The size of the array
  */
 void bubble_sort(int *array, size_t size);
+
+#endif /* SORT_H */
