@@ -90,5 +90,11 @@ void merge_sort(int *array, size_t size);
  * @size: The size of the array
  */
 void heap_sort(int *array, size_t size);
+/**
+ * radix_sort - The radix sort algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void radix_sort(int *array, size_t size);
 
 #endif /* SORT_H */
