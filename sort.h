@@ -66,4 +66,10 @@ void shell_sort(int *array, size_t size);
  * @list: The list to be sorted
  */
 void cocktail_sort_list(listint_t **list);
+/**
+ * counting_sort - The counting sort algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void counting_sort(int *array, size_t size);
 #endif /* SORT_H */
