@@ -102,5 +102,12 @@ void radix_sort(int *array, size_t size);
  * @size: The size of the array
  */
 void bitonic_sort(int *array, size_t size);
+/**
+ * quick_sort_hoare - The quick_sort sorting algorithm with
+ *		      hoare partition scheme
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void quick_sort_hoare(int *array, size_t size);
 
 #endif /* SORT_H */
