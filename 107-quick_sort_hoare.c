@@ -29,19 +29,18 @@ void hoare_sort(int *array, size_t lo, size_t hi, size_t size)
 		return;
 	while (1)
 	{
-		do
-		{
+		do {
 			i++;
-		} while(array[i] < array[hi]);
-		do
-		{	j--;
-		} while(array[j] > array[hi]);
+		} while (array[i] < array[hi]);
+		do {
+			j--;
+		} while (array[j] > array[hi]);
 		if (i >= j)
 			break;
 		swap(array + i, array + j);
 		print_array(array, size);
 	}
-	hoare_sort(array, j, hi, size);
+	hoare_sort(array, i, hi, size);
 	hoare_sort(array, lo, i - 1, size);
 }
 
