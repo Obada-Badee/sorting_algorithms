@@ -61,4 +61,9 @@ void selection_sort(int *array, size_t size);
  * @size: The size of the array
  */
 void shell_sort(int *array, size_t size);
+/**
+ * cocktail_sort_list - The cocktail sort algorithm
+ * @list: The list to be sorted
+ */
+void cocktail_sort_list(listint_t **list);
 #endif /* SORT_H */
