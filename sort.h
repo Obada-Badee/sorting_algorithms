@@ -49,5 +49,11 @@ void bubble_sort(int *array, size_t size);
  * @list: The list to be sorted
  */
 void insertion_sort_list(listint_t **list);
+/**
+ * selection_sort - The selection sort algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void selection_sort(int *array, size_t size);
 
 #endif /* SORT_H */
