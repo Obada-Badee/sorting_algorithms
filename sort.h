@@ -78,4 +78,11 @@ void cocktail_sort_list(listint_t **list);
  * @size: The size of the array
  */
 void counting_sort(int *array, size_t size);
+/**
+ * merge_sort - The merge_sort sorting algorithm
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
+void merge_sort(int *array, size_t size);
+
 #endif /* SORT_H */
