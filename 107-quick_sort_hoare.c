@@ -40,8 +40,8 @@ void hoare_sort(int *array, size_t lo, size_t hi, size_t size)
 		swap(array + i, array + j);
 		print_array(array, size);
 	}
-	hoare_sort(array, i, hi, size);
 	hoare_sort(array, lo, i - 1, size);
+	hoare_sort(array, i, hi, size);
 }
 
 /**

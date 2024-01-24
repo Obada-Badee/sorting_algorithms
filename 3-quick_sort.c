@@ -39,9 +39,9 @@ void lomuto_quick_sort(int *array, size_t lo, size_t hi, size_t size)
 		if (j != hi)
 			i++;
 	}
-	lomuto_quick_sort(array, i + 1, hi, size);
 	if (i != 0)
 		lomuto_quick_sort(array, lo, i - 1, size);
+	lomuto_quick_sort(array, i + 1, hi, size);
 }
 
 /**
