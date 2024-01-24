@@ -24,17 +24,19 @@ void swap(int *first, int *second)
 void hoare_sort(int *array, size_t lo, size_t hi, size_t size)
 {
 	size_t j = hi + 1, i = lo - 1;
+	int pivot;
 
 	if (lo >= hi || array == NULL)
 		return;
+	pivot = array[hi];
 	while (1)
 	{
 		do {
 			i++;
-		} while (array[i] < array[hi]);
+		} while (array[i] < pivot);
 		do {
 			j--;
-		} while (array[j] > array[hi]);
+		} while (array[j] > pivot);
 		if (i >= j)
 			break;
 		swap(array + i, array + j);
