@@ -25,7 +25,7 @@ void hoare_sort(int *array, size_t lo, size_t hi, size_t size)
 {
 	size_t j = hi + 1, i = lo - 1;
 
-	if (lo >= hi)
+	if (lo >= hi || array == NULL)
 		return;
 	while (1)
 	{
